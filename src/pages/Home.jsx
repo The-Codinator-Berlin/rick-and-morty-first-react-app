@@ -1,9 +1,13 @@
 import React from 'react'
-
+import CardGrid from "../components/card_grid/CardGrid";
+import Header from "../components/header/Header";
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div>
+      <Header />
+      <CardGrid />
+    </div>
+  );
 }
 
 export default Home
