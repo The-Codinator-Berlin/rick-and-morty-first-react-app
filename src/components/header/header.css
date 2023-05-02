@@ -1,0 +1,18 @@
+.myHeader {
+  max-width: 100%;
+  background-color: #affc41;
+  border: black solid, 2px;
+}
+
+.rounded-full {
+  border: black 1px solid;
+}
+
+.searchInput {
+  background-color: hotpink;
+  border: black 1px solid;
+}
+
+.container {
+  border-bottom: #086375 solid 2px;
+}
