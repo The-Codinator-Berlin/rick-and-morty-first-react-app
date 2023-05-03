@@ -1,7 +1,7 @@
 import React from "react";
 import CardGrid from "../components/card_grid/CardGrid";
 import Header from "../components/header/Header";
-import Footer from "../Footer";
+import Footer from "../components/footer/Footer";
 
 function Home() {
   return (
