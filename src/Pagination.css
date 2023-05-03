@@ -1,0 +1,7 @@
+.myPFlex{
+display: flex;
+justify-content: space-around;
+padding-top: 0.2em;
+padding-bottom: 1em;
+color: hotpink;
+}
