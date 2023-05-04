@@ -13,7 +13,7 @@ function Header(props) {
     <div className="header">
       <header className="myHeader container mx-auto max-h12 flex justify-around items-center py-2">
         <img
-          className="rounded-full"
+          className="bounce2 rounded-full"
           src={logo}
           alt="Rick and Morty character logo"
           height={80}
@@ -23,7 +23,7 @@ function Header(props) {
           Rick and Morty character database
         </h1>
         <input
-          className="searchInput ring-teal-700 rounded-3xl text-center scale-125 placeholder-black placeholder:italic font-light"
+          className="bounce-in-right searchInput ring-teal-700 rounded-3xl text-center scale-125 placeholder-black placeholder:italic font-light"
           type="search"
           placeholder="Search a charatcer.."
           // onChange={() => {
