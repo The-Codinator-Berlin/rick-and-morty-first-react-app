@@ -1,0 +1,10 @@
+.divGrid {
+  background-color: #086375;
+  border: solid 4px #affc41;
+  height: 22em;
+  width: auto;
+}
+
+.cardImg {
+  border-bottom: solid 3px #affc41;
+}
