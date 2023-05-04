@@ -32,13 +32,21 @@ function Characters() {
       <div className="grid grid-cols-5 gap-4 pt-1 m-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
         {characters.map((character) => {
           return (
-            <div key={character.id} className="rounded-lg divGrid text-center">
+            <div
+              key={character.id}
+              className="swing rounded-lg divGrid text-center"
+            >
               <span>
                 <img className="cardImg" src={character.image} alt="" />
               </span>
-
-              <h1 className="font-mono">{character.name}</h1>
-              <p className="font-mono">{character.species}</p>
+              <h1 className="nameColor font-mono">{character.name}</h1>
+              <p className="species font-mono">{character.species}</p>
+              <button
+                type="button"
+                className="rounded-full bg-white px-2.5 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+              >
+                More
+              </button>
             </div>
           );
         })}
