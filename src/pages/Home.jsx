@@ -1,13 +1,11 @@
 import React from "react";
-import CardGrid from "../components/card_grid/CardGrid";
-import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
+import Characters from "../components/characters/Characters";
 
 function Home() {
   return (
     <div>
-      <Header />
-      <CardGrid />
+      <Characters />
       <Footer />
     </div>
   );
