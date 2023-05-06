@@ -8,3 +8,7 @@
 .cardImg {
   border-bottom: solid 3px #affc41;
 }
+
+.rounded-full{
+  background-color: #affc41;
+}
